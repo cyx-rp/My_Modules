@@ -19,7 +19,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_android_programming);
+        setContentView(R.layout.activity_module_detail_activity);
 
 
         modCode = findViewById(R.id.moduleCode);

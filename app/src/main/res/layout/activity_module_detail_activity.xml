@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModuleDetailActivity"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/moduleCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/mc"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/moduleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/mn"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/academicYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/ay"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/y"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/semester"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/moduleCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/mcred"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_cafe_bold"
+            android:text="@string/ven"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

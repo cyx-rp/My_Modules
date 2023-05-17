@@ -5,43 +5,80 @@
     android:id="@+id/c34"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/louis_george_cafe_bold"
+        android:text="@string/module"
+        android:textColor="#FFFFFF"
+        android:textSize="75sp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/c218"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:fontFamily="@font/louis_george_cafe_bold"
+        android:gravity="center"
         android:text="@string/c218"
-        android:textSize="20sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/c235"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:fontFamily="@font/louis_george_cafe_bold"
+        android:gravity="center"
         android:text="@string/c235"
-        android:textSize="20sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/c346"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:fontFamily="@font/louis_george_cafe_bold"
+        android:gravity="center"
         android:text="@string/c346"
-        android:textSize="20sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/c206"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:fontFamily="@font/louis_george_cafe_bold"
+        android:gravity="center"
         android:text="@string/c206"
-        android:textSize="20sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/c203"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:fontFamily="@font/louis_george_cafe_bold"
+        android:gravity="center"
         android:text="@string/c203"
-        android:textSize="20sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
 </LinearLayout>

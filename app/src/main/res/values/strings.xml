@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">My Modules</string>
-    <string name="c218">C218 UI/UX Design for Apps</string>
+    <string name="c218">C218 UI/UX Design in Apps</string>
     <string name="c346">C346 Android Programming</string>
     <string name="c235">C235 IT Security and Management</string>
     <string name="c206">C206 Software Development Process</string>
     <string name="c203">C203 Web App in Development in php</string>
+    <string name="mc">ModuleCode</string>
+    <string name="mn">ModuleName</string>
+    <string name="ay">AcadYear</string>
+    <string name="y">Year</string>
+    <string name="semester">Semester</string>
+    <string name="mcred">ModuleCredit</string>
+    <string name="ven">Venue</string>
+    <string name="module"><u>Modules</u></string>
 </resources>
